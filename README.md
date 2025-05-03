@@ -46,6 +46,29 @@ Este é um jogo estilo plataforma com rolagem lateral infinita. O jogador pode a
 
 ---
 
+### ✅ Opção 2: Usando VS Code ou PyCharm
+
+Se utilizar uma IDE como o **VS Code** ou o **PyCharm**, siga os passos abaixo:
+
+#### 1. Instale o Python:
+- [https://www.python.org/downloads/](https://www.python.org/downloads/)
+
+#### 2. Instale o Pygame Zero:
+Abra o terminal ou prompt de comando e digite:
+```bash
+pip install pgzero
+```
+
+#### 3. Abra a pasta do projeto na IDE.
+
+#### 4. Execute o jogo com o seguinte comando no terminal:
+```bash
+pgzrun jogo.py
+```
+
+> Importante: Não execute com `python jogo.py`, pois Pygame Zero exige o comando `pgzrun`.
+---
+
 ## 💡 Dicas
 
 - **Use os arquivos exatamente com os nomes minúsculos** (ex: `walk1.png`, não `Walk1.PNG`).
