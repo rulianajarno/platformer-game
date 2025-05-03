@@ -15,10 +15,9 @@ Este é um jogo estilo plataforma com rolagem lateral infinita. O jogador pode a
 
 - **→**: Andar para a direita  
 - **←**: Andar para a esquerda  
-- **↑**: Pular  
-- **Mouse**: Atirar (clique do mouse)  
+- **↑**: Pular   
 - **Tecla R**: Reiniciar o jogo na tela de Game Over  
-- **Botões na tela**: Iniciar e sair do jogo
+- **Botões na tela**: Menu com opções de iniciar, ativar ou desativar o som, e sair. 
 
 ---
 
