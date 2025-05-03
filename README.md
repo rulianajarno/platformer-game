@@ -1,65 +1,65 @@
 
 # Platformer Game 🎮
 
-Um jogo simples no estilo *platformer* desenvolvido com Python e PgZero. O jogador deve coletar moedas, desviar de inimigos e pular entre plataformas infinitas. O código utiliza apenas formas geométricas para renderização — sem imagens ou sons externos.
+Um jogo de plataforma, usando **Pygame Zero** feito através do MU editor. 
+
+
+## 🧠 Sobre o projeto
+
+Este é um jogo estilo plataforma com rolagem lateral infinita. O jogador pode andar, pular, atirar, coletar moedas e eliminar inimigos. A cada colisão com inimigos ou queda, o jogo reinicia. Há um menu inicial e uma tela de Game Over funcional.
+
 
 ---
 
-## 🚀 Como Executar
+## 🕹️ Controles do jogo
 
-### 1. Instale o Python
-Baixe e instale o Python 3.7 ou superior: https://www.python.org/downloads/
-
-### 2. Instale o PgZero
-Com o Python instalado, abra o terminal e digite:
-```bash
-pip install pgzero
-```
-
-### 3. Baixe ou clone este repositório:
-```bash
-git clone https://github.com/seu-usuario/platformer-game.git
-cd platformer-game
-```
-
-### 4. Rode o jogo:
-No terminal (dentro da pasta do projeto), execute:
-```bash
-pgzrun main.py
-```
-
----
-
-##⌨️ Controles
-
-- **Seta Direita / Esquerda**: mover o jogador.
-- **Seta Cima**: pular (se estiver no chão).
-- **Espaço**: atirar.
-
----
-
-## 📁 Estrutura do Projeto
-
-```
-platformer-game/
-│
-├── main.py           # Código principal do jogo
-└── README.md         # Instruções (este arquivo)
-```
+- **→**: Andar para a direita  
+- **←**: Andar para a esquerda  
+- **↑**: Pular  
+- **Mouse**: Atirar (clique do mouse)  
+- **Tecla R**: Reiniciar o jogo na tela de Game Over  
+- **Botões na tela**: Iniciar e sair do jogo
 
 ---
 
 ## ✅ Requisitos
 
-- Python 3.7 ou superior
-- PgZero instalado via `pip install pgzero`
-- Nenhum recurso externo (imagens ou sons)
+- **Mu Editor** instalado  
+  Você pode baixar aqui: [https://codewith.mu](https://codewith.mu)
+
+> O Mu já vem com o Pygame Zero embutido, é só selecionar o Modo Pygame Zero, então não precisa instalar mais nada.
 
 ---
 
+## 🚀 Como rodar o jogo no Mu Editor
+
+1. **Baixe o projeto**:
+   - Clique em `Code > Download ZIP` no topo do repositório (caso esteja no GitHub).
+   - Ou receba o `.zip` diretamente e extraia para uma pasta chamada `platformer`.
+
+2. **Abra o Mu Editor**.
+
+3. Clique em `Abrir` e selecione o arquivo `jogo.py` dentro da pasta `platformer`.
+
+4. Clique em `Jogar` (ícone de de controle) no topo da tela.
+
+5. **Pronto!** O jogo será iniciado.
+
+---
+
+## 💡 Dicas
+
+- **Use os arquivos exatamente com os nomes minúsculos** (ex: `walk1.png`, não `Walk1.PNG`).
+- Se aparecer algum erro, verifique se as pastas `images/` e `music/` estão na mesma pasta do `jogo.py`.
+
+---
+
+### 🖼️ Créditos:
+- Código: Ruliana
+- Assets gráficos: Platformer Art Deluxe (Kenney.nl)
+- Música: Sci-fi Sounds (Kenney.nl)
+
 ## 📌 Observações
 
-- O jogo funciona puramente com formas geométricas desenhadas na tela.
 - Ideal para aprendizado de lógica de jogos e uso básico do PgZero.
 - Sem dependências adicionais.
-- O jogo foi feito apenas no replit devido a uma manutenção no meu computador principal que só retorna no dia 08/05.
